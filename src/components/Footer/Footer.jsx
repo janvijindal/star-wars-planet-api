@@ -18,20 +18,20 @@ const Footer = function Footer() {
           any <strong>React</strong> project.
           <br />
           Info about features in &nbsp;
-          <Link href="https://github.com/gabrielizalo/starwars-planets">GitHub</Link>. Created by
+          <Link href="https://github.com/janvijindal/star-wars-planet-api">GitHub</Link>. Created by
           &nbsp;
-          <Link href="https://twitter.com/gabrielizalo">Gabriel Porras</Link> - {appYear}
+          <Link href="https://github.com/janvijindal/star-wars-planet-api">Janvi jindal</Link> - {appYear}
           {appVersion && (
             <span>
               {' '}
               -{' '}
-              <Link href="https://github.com/gabrielizalo/starwars-planets/releases">
+              <Link href="https://github.com/janvijindal/star-wars-planet-api">
                 {appVersion}
               </Link>
             </span>
           )}
           <br />
-          <Link href="https://github.com/gabrielizalo/starwars-planets">
+          <Link href="https://github.com/janvijindal/star-wars-planet-api">
             <img alt="StarWars Planets GitHub" src={starWarsLogoGitHub} />
           </Link>
         </Typography>
